@@ -1,14 +1,29 @@
 \documentclass{article}
 
 \usepackage[utf8]{inputenc}  % specify the input encoding
-% \usepackage[french]{babel} % french typography
+\usepackage[french]{babel} % french typography
 
 
 \usepackage{amsmath}
 \usepackage{amssymb}
 
 \usepackage{enumitem} % for changing questions-numbering
- 
+
+\setlength{\hoffset}{-18pt}	
+\setlength{\oddsidemargin}{0pt}	% Marge gauche sur pages impaires
+\setlength{\evensidemargin}{8pt}	% Marge gauche sur pages paires
+\setlength{\marginparwidth}{54pt}	% Largeur de note dans la marge
+\setlength{\textwidth}{500pt}	% Largeur de la zone de texte 
+\setlength{\voffset}{-18pt}	% Bon pour DOS
+\setlength{\marginparsep}{7pt}	% Séparation de la marge
+\setlength{\topmargin}{0pt}	% Pas de marge en haut
+\setlength{\headheight}{13pt}	% Haut de page
+\setlength{\headsep}{10pt}	% Entre le haut de page et le texte
+\setlength{\footskip}{27pt}	% Bas de page + séparation
+% \setlength{\textheight}{708pt}	% Hauteur de la zone de texte (25cm)\s
+\setlength{\textheight}{680pt}	% Hauteur de la zone de texte (25cm)\s
+
+
 
 \title{Proportionnalité à l'aide d'un tableur}
 \author{}
@@ -18,11 +33,11 @@
 
 \maketitle
 
-{\bf Niveau :} $4^{\textrm{ème}}$  \\
+\noindent {\bf Niveau :} $4^{\textrm{ème}}$  \\
 
-{\bf Objectifs :}  \\
+\noindent {\bf Objectifs :}  \\
 
-Utilisation d'un tableur pour : 
+\noindent Utilisation d'un tableur pour : 
 \begin{list}{$\bullet$}{}
 \item vérifier qu'un tableau est de proportionnalité ;
 \item générer des valeurs d'un tableau de proportionnalité.
@@ -121,22 +136,90 @@ Quelle formule, peut-on entrer dans la cellule $E2$ afin obtenir les prix corres
 
 \section{Produits en croix}
 
-On donne des tableaux 2 * 2
+On considère le tableau suivant indiquant le prix d'un produit dont la quantité est donnée en kg.
 
-Dire si les tableaux suivants sont des tableaux de proportionnalité
+% \begin{equation*}
+%   \begin{array}{|c|c|}
+%     \hline
+%     a & b \\
+%     \hline
+%     c & d \\
+%     \hline
+%   \end{array}
+% \end{equation*}
 
-utiliser la structure conditionnelle si
 
-produit en croix
-
+% tableau de proportionnalité
 \begin{equation*}
-  \begin{array}{|c|c|}
+  \begin{array}{|c|c|c|c|}
     \hline
-    a & b \\
+    & A & B & C \\
     \hline
-    c & d \\
+    1 & \textrm{quantité (en kg)} & 2 & 14 \\
+    \hline
+    2 & \textrm{prix (en euros)} & 1,5 & 10,5 \\
     \hline
   \end{array}
 \end{equation*}
+
+\begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left,label=\arabic*)]
+
+\item Montrer en utilisant l'égalité des produits en croix que le prix est proportionnel à la quantité. 
+\item Utiliser la struture conditionnelle SI pour afficher la chaîne de caractère ``proportionnel'' dans la cellule $D4$ lorsque les produits en croix sont égaux.
+
+
+
+% Commande sous tableur : 
+% =if(B1*C2=B2*C1;"Prop";"non Prop")
+
+\item Utiliser de même la struture conditionnelle SI pour afficher dans la cellule $D4$
+  la chaîne de caractère ``proportionnel''  lorsque le tableau est un tableau de proportionnalité
+  et ``non proportionnel'' lorsque le tableau n'est pas un tableau de proportionnalité pour les $3$ tableaux suivants.
+
+
+  \begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left,label=\alph*)]
+    
+  \item 
+    % tableau de non-proportionnalité
+    \begin{equation*}
+      \begin{array}{|c|c|}
+        \hline
+        A & B \\
+        \hline
+        3 & 3,6 \\
+        \hline
+        2,3 & 2,53 \\
+        \hline
+      \end{array}
+    \end{equation*}
+    
+  \item 
+    % tableau de non-proportionnalité
+    \begin{equation*}
+      \begin{array}{|c|c|}
+        \hline
+        7 & 16,1 \\
+        \hline
+        3,4 & 7,48 \\
+        \hline
+      \end{array}
+    \end{equation*}
+    
+  \item 
+    % tableau de proportionnalité
+    \begin{equation*}
+      \begin{array}{|c|c|}
+        \hline
+        9 & 23,4 \\
+        \hline
+        7,6 & 19,76 \\
+        \hline
+      \end{array}
+    \end{equation*}
+    
+  \end{enumerate}
+  
+\end{enumerate}
+
 
 \end{document}
