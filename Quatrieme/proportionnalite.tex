@@ -1,0 +1,142 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}  % specify the input encoding
+% \usepackage[french]{babel} % french typography
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{enumitem} % for changing questions-numbering
+ 
+
+\title{Proportionnalité à l'aide d'un tableur}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+{\bf Niveau :} $4^{\textrm{ème}}$  \\
+
+{\bf Objectifs :}  \\
+
+Utilisation d'un tableur pour : 
+\begin{list}{$\bullet$}{}
+\item vérifier qu'un tableau est de proportionnalité ;
+\item générer des valeurs d'un tableau de proportionnalité.
+\end{list}
+
+% Les différentes méthodes pour la proportionnalité vues en 4ème :
+% \begin{list}{$\bullet$}{}
+% \item coefficient de proportionnalité
+% \item règles sur les colonnes
+% \item relations entre les colonnes
+% \item passage à l'unité ou règle de trois
+% \item égalité des produits en croix
+% \end{list}
+
+
+% \section{Rappels sur la proportionnalité}
+
+\section{Coefficient de proportionnalité}
+
+% Définition d'un tableau de variation et du coefficient de proportionnalité :
+
+%   Un tableau est dit de proportionnalité lorsqu'on peut passer de la première ligne à la deuxième ligne en multipliant ou en divisant tous les nombres  par le m\^eme nombre.
+
+% Ce nombre est appelé coefficient de proportionnalité.
+
+
+Le tableau suivant indique le prix en euros de certaines quantités de pêches en kilogrammes :
+
+\begin{equation*}
+  \begin{array}{|c|c|c|c|c|}
+    \hline
+    & A & B & C & D \\
+    \hline
+    1 & \textrm{Masse de pêches} & 3 & 4 & 5 \\
+    & \textrm{(en kg)} & & & \\
+    \hline
+    2 & \textrm{Prix} & 8,40 & 11,20 & 14 \\
+    & \textrm{(en euros)} & & & \\
+    \hline
+  \end{array}
+\end{equation*}
+
+\begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left,label=\arabic*)]
+
+\item Déterminer le coefficient de proportionnalité de ce tableau.
+
+\item On souhaite calculer avec un tableur le coefficient de proportionnalité dans la cellule $B3$. 
+
+\begin{equation*}
+  \begin{array}{|c|c|c|c|c|}
+    \hline
+    & A & B & C & D \\
+    \hline
+    1 & \textrm{Masse de pêches} & 3 & 4 & 5 \\
+    & \textrm{(en kg)} & & & \\
+    \hline
+    2 & \textrm{Prix} & 8,40 & 11,20 & 14 \\
+    & \textrm{(en euros)} & & & \\
+    \hline
+    3 & \textrm{Coefficient de proportionnalité} & & & \\
+    \hline
+  \end{array}
+\end{equation*}
+  
+  Indiquer la formule à entrer dans la cellule $B3$ afin d'obtenir le coefficient de proportionnalité du tableau.
+
+\item On souhaite obtenir, avec le tableur, les prix de masse de pêches allant de $6$ à $10$ kg.
+
+\begin{equation*}
+  \begin{array}{|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    & A & B & C & D & E & F & G & H & I\\
+    \hline
+    1 & \textrm{Masse de pêches} & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+    & \textrm{(en kg)} & & & & & & & &\\
+    \hline
+    2 & \textrm{Prix} & 8,40 & 11,20 & 14 & & & & &\\
+    & \textrm{(en euros)} & & & & & & & &\\
+    \hline
+    3 & \textrm{Coefficient de proportionnalité} & & & & & & & &\\
+    \hline
+  \end{array}
+\end{equation*}
+
+
+Quelle formule, peut-on entrer dans la cellule $E2$ afin obtenir les prix correspondants par recopie sur la droite de la plage $E2\negthinspace:I2$ ? 
+  
+
+% il faut ajouter les 2 dollars pour appeler la B3 du coefficient de proportionnalité
+% =E$1*$B$3
+
+\item Générer le tableau à l'aide d'un tableur.
+
+\end{enumerate}
+
+
+\section{Produits en croix}
+
+On donne des tableaux 2 * 2
+
+Dire si les tableaux suivants sont des tableaux de proportionnalité
+
+utiliser la structure conditionnelle si
+
+produit en croix
+
+\begin{equation*}
+  \begin{array}{|c|c|}
+    \hline
+    a & b \\
+    \hline
+    c & d \\
+    \hline
+  \end{array}
+\end{equation*}
+
+\end{document}
