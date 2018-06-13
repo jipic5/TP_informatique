@@ -138,6 +138,7 @@ Quelle formule, peut-on entrer dans la cellule $E2$ afin obtenir les prix corres
 
 On considère le tableau suivant indiquant le prix d'un produit dont la quantité est donnée en kg.
 
+% Forme générale : tableau 2*2
 % \begin{equation*}
 %   \begin{array}{|c|c|}
 %     \hline
@@ -164,16 +165,16 @@ On considère le tableau suivant indiquant le prix d'un produit dont la quantit�
 
 \begin{enumerate}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left,label=\arabic*)]
 
-\item Montrer en utilisant l'égalité des produits en croix que le prix est proportionnel à la quantité. 
+\item Montrer en utilisant l'égalité des produits en croix que le prix est proportionnel à la quantité.
+  
+  % Utilisation de la fonction SI
 \item Utiliser la struture conditionnelle SI pour afficher la chaîne de caractère ``proportionnel'' dans la cellule $D4$ lorsque les produits en croix sont égaux.
-
-
 
 % Commande sous tableur : 
 % =if(B1*C2=B2*C1;"Prop";"non Prop")
 
 \item Utiliser de même la struture conditionnelle SI pour afficher dans la cellule $D4$
-  la chaîne de caractère ``proportionnel''  lorsque le tableau est un tableau de proportionnalité
+  la chaîne de caractères ``proportionnel''  lorsque le tableau est un tableau de proportionnalité
   et ``non proportionnel'' lorsque le tableau n'est pas un tableau de proportionnalité pour les $3$ tableaux suivants.
 
 
@@ -182,13 +183,13 @@ On considère le tableau suivant indiquant le prix d'un produit dont la quantit�
   \item 
     % tableau de non-proportionnalité
     \begin{equation*}
-      \begin{array}{|c|c|}
+      \begin{array}{|c|c|c|c|}
         \hline
-        A & B \\
+        & A & B & C \\
         \hline
-        3 & 3,6 \\
+        1 & \textrm{quantité (en kg)} & 3 & 3,6 \\
         \hline
-        2,3 & 2,53 \\
+        2 & \textrm{prix (en euros)} & 2,3 & 2,53 \\
         \hline
       \end{array}
     \end{equation*}
@@ -196,11 +197,13 @@ On considère le tableau suivant indiquant le prix d'un produit dont la quantit�
   \item 
     % tableau de non-proportionnalité
     \begin{equation*}
-      \begin{array}{|c|c|}
+      \begin{array}{|c|c|c|c|}
         \hline
-        7 & 16,1 \\
+        & A & B & C \\
         \hline
-        3,4 & 7,48 \\
+        1 & \textrm{quantité (en kg)} & 7 & 16,1 \\
+        \hline
+        2 & \textrm{prix (en euros)} & 3,4 & 7,48 \\
         \hline
       \end{array}
     \end{equation*}
@@ -208,11 +211,13 @@ On considère le tableau suivant indiquant le prix d'un produit dont la quantit�
   \item 
     % tableau de proportionnalité
     \begin{equation*}
-      \begin{array}{|c|c|}
+      \begin{array}{|c|c|c|c|}
         \hline
-        9 & 23,4 \\
+        & A & B & C \\
         \hline
-        7,6 & 19,76 \\
+        1 & \textrm{quantité (en kg)} & 9 & 23,4 \\
+        \hline
+        2 & \textrm{prix (en euros)} & 7,6 & 19,76 \\
         \hline
       \end{array}
     \end{equation*}
