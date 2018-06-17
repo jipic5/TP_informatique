@@ -1,3 +1,3 @@
 # TP_informatique
 
-TP informatique au collège et au lycée
+Practical Work in Computer Science for Secondary School
