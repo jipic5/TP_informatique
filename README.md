@@ -15,5 +15,5 @@ Les différentes méthodes pour la proportionnalité vues en 4ème sont :
 * le [coefficient de proportionnalité](https://fr.wikipedia.org/wiki/Coefficient#Coefficient_de_proportionnalit.C3.A9) ; 
 * les [règles sur les colonnes](https://fr.wikipedia.org/wiki/Proportionnalit%C3%A9#Tableau_de_proportionnalit%C3%A9) ;
 * les [relations entre les colonnes](https://fr.wikipedia.org/wiki/Proportionnalit%C3%A9#Tableau_de_proportionnalit%C3%A9); 
-* le passage à l'unité ou la [règle de trois](https://fr.wikipedia.org/wiki/R%C3%A8gle_de_trois) ;
+* le [passage à l'unité](https://fr.wikipedia.org/wiki/R%C3%A8gle_de_trois#R%C3%A9duction_%C3%A0_l'unit%C3%A9) ou la [règle de trois](https://fr.wikipedia.org/wiki/R%C3%A8gle_de_trois) ;
 * égalité des [produits en croix](https://fr.wikipedia.org/wiki/R%C3%A8gle_de_trois#Produits_en_croix).
