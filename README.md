@@ -12,7 +12,7 @@ __Proportionnalité__
 
 Les différentes méthodes pour la proportionnalité vues en 4ème sont :
 
-* coefficient de proportionnalité
+* le [coefficient de proportionnalité](https://fr.wikipedia.org/wiki/Coefficient#Coefficient_de_proportionnalit.C3.A9) ; 
 * règles sur les colonnes
 * relations entre les colonnes
 * passage à l'unité ou règle de trois
