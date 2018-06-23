@@ -23,3 +23,10 @@ Different methods for proportionality :
 * [cross-multiplication](https://en.wikipedia.org/wiki/Cross-multiplication)
 
 
+# Repayment of a load
+
+Modelization of the amount of [interest](https://en.wikipedia.org/wiki/Interest_rate) due per period after a [loan](https://en.wikipedia.org/wiki/Loan).
+
+For each period repayment, the borrower will pay principal and [interest](https://en.wikipedia.org/wiki/Interest) ([Amortization](https://en.wikipedia.org/wiki/Amortization_(business)) of loans). 
+
+
