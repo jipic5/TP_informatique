@@ -35,4 +35,4 @@ Modélisation des [intérets](https://fr.wikipedia.org/wiki/Emprunt_(finance)#Ca
 Si les intérêts sont versés tous les mois, chaque mois on devra rembourser :  
 
 l'intérêt dû sur la période d'un mois auquel s'ajoute l'[amortissement](https://fr.wikipedia.org/wiki/Amortissement_(finance)) du capital pour chaque moi.
-Ce qui représnete les mensualités.
+Ce qui représente les mensualités.
