@@ -25,3 +25,14 @@ Les différentes méthodes pour la proportionnalité vues en 4ème sont :
 * les [relations entre les colonnes](https://fr.wikipedia.org/wiki/Proportionnalit%C3%A9#Tableau_de_proportionnalit%C3%A9); 
 * le [passage à l'unité](https://fr.wikipedia.org/wiki/R%C3%A8gle_de_trois#R%C3%A9duction_%C3%A0_l'unit%C3%A9) ou la [règle de trois](https://fr.wikipedia.org/wiki/R%C3%A8gle_de_trois) ;
 * l'égalité des [produits en croix](https://fr.wikipedia.org/wiki/R%C3%A8gle_de_trois#Produits_en_croix).
+
+# Classe de première ES
+
+__Remboursement d'un prêt__
+
+Modélisation des [intérets](https://fr.wikipedia.org/wiki/Emprunt_(finance)#Calcul_de_l'intérêt) à verser après un [emprunt](https://fr.wikipedia.org/wiki/Emprunt_(finance)#Caractéristiques_des_emprunts_indivis) :
+
+Si les intérêts sont versés tous les mois, chaque mois on devra à rembourser :  
+
+l'intérêt dû sur la période d'un mois auquel s'ajoute l'[amortissement](https://fr.wikipedia.org/wiki/Amortissement_(finance)) du capital pour chaque moi.
+Ce qui représnete les mensualités.
