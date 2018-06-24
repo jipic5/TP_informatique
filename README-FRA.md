@@ -6,6 +6,12 @@ Ce projet correspond à des [TP informatiques](https://fr.wikipedia.org/wiki/Tra
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Cette œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 4.0 International</a>.
 
+# Objectifs de ce projet
+
+Le but de ce projet est de créer un espace collaboratif où peuvent être partagés et améliorés des TP d'informatique au collège et au lycée.
+
+Toute améliorations (de la simple corrections de fautes d'orthographe à l'ajout de TP) est la bienvenue. Des propositions peuvent être faites sur le [wiki](https://github.com/jipic5/TP_informatique/wiki). 
+
 # Logiciels
 
 Les élèves sont incités à utiliser des [logiciels libres](https://fr.wikipedia.org/wiki/Logiciel_libre) :
