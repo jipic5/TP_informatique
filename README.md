@@ -2,6 +2,12 @@
 
 Practical Work in Computer Science for Secondary School
 
+# Purpose of this project
+
+The purpose is to create a collaborative space for working on activities about computer science studied at secondary school.
+
+It is possible to enhance easily this project by checking the spelling; proposing some suggestions by modifying the [wiki](https://github.com/jipic5/TP_informatique/wiki) or adding some activities for a class.
+
 # License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
