@@ -10,7 +10,7 @@ Ce projet correspond à des [TP informatiques](https://fr.wikipedia.org/wiki/Tra
 
 Le but de ce projet est de créer un espace collaboratif où peuvent être partagés et améliorés des TP d'informatique au collège et au lycée.
 
-Toute améliorations (de la simple corrections de fautes d'orthographe à l'ajout de TP) est la bienvenue. Des propositions peuvent être faites sur le [wiki](https://github.com/jipic5/TP_informatique/wiki). 
+Toutes améliorations (de la simple correction de fautes d'orthographe à l'ajout de TP) est la bienvenue. Des propositions peuvent être faites sur le [wiki](https://github.com/jipic5/TP_informatique/wiki). 
 
 # Logiciels
 
